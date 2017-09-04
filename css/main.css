@@ -1,0 +1,204 @@
+body{margin: 0;padding: 0;}
+img{width: 100%;}
+
+/*same-width*/
+.same-width{width: 80%;margin-left: auto;margin-right: auto;margin-top: 4%;margin-bottom: 4%;}
+.same-width label{display: block;text-align: center;padding: 3% 0;font-size: 26px;font-weight:500;font-family: Encode Sans;color: #333;}
+
+/*main-img-section*/
+.main-img-section{position: relative;}
+.main-img-text-section{position: absolute;top: 6%;left: 18%;color: #fff;text-align: center;font-family: Montserrat;}
+.main-img-text-section h1{font-size: 5em;}
+.main-img-text-section h1 span{color: #f32869;}
+.main-img-text-section p{font-size: 2em;margin-top: 26%;}
+.main-img-section img{width: 100%;}
+.scroll-down{margin-top: 14%;animation: updown 1.2s linear infinite;}
+.scroll-down a{text-decoration: none;font-size: 3em;color: #fff;}
+@keyframes updown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/*about-section*/
+.about-right{font-family: Encode Sans;}
+.about-right ul{padding-left: 0;}
+.about-right ul li{margin-bottom: 2%;list-style-type: none;text-align: center;line-height: 28px;font-size: 14px;}
+.about-right ul li span{font-weight: 500;font-size: 24px;color: #444;border-bottom: 2px solid #ccc;margin-right: 1%;}
+.about-right ul li a{color: #f32869;text-decoration: none;font-weight: 500;}
+
+/*service-section*/
+.service-section{}
+.service-section .service-box{display: inline-block;width: 33%;transition: all .3s ease-in-out;}
+.service-box{padding: 2% 0;}
+.service-box:hover{box-shadow: 0 5px 12px -7px #777;-webkit-box-shadow:0 6px 19px -6px #777;transition: all .3s ease-in-out;}
+.service-box-text{text-align: center;font-family: Encode Sans;}
+.service-box-text label{font-size: 15px;text-transform: uppercase;}
+.service-box-text p{margin: 1% 0;font-size: 14px;color: #777;}
+.service-box-text a{margin: 4% 0;color: #444;text-decoration: none;border: 1px solid #444;display: inline-block;padding: 2% 5%;font-size: 12px;border-radius: 2px;}
+
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+
+
+
+
+/*gallery-section*/
+.img_block{}
+.img_block_1{display: inline-block;width: 70.8%;}
+.img_block_1-1{display: inline-block;width: 28.5%;}
+.img_block_2{}
+.img_block_2 div{display: inline-block;width: 33%;}
+.img_block_2-1{}
+.img_block_2-2{}
+.img_block_2{}
+
+.img_block_3 div{display: inline-block;width: 49.68%;}
+
+
+/*trainer-section*/
+.trainer_block{padding: 2% 3%;}
+.trainer_block .trainer_box{display: inline-block;width: 49%;text-align: center;}
+.trainer_left_box{}
+.trainer_right_box{}
+.trainer_img img{width: 40%;}
+
+
+/*feedback-section*/
+
+
+
+/*contact-section*/
+
+.contact-box{display: inline-block;width: 49.9%;}
+.contact-box:hover{box-shadow: 0 5px 12px -7px #777;-webkit-box-shadow:0 6px 19px -6px #777;transition: all .3s ease-in-out;}
+.contact-img-box{display: block;padding: 0;}
+.contact-img-box img{width: 22%;}
+.contact-text-box{}
+.contact-wrap-box{overflow: auto;text-align: center;}
+.contact-text-box p{margin-top: 2%;font-family: Encode Sans;padding-left: 0;}
+.right-contact-box{float: right;margin-top: 0;}
+.social_links{text-align: center;border-top: 2px dashed #ccc;padding-top: 4%;padding-bottom: 1%;margin-top: 2%;}
+.social_links a{text-decoration: none;margin-right: 6%;margin-left: 0;}
+.social_links a:last-child{margin-right: 0;}
+.social_links a img{width:10%;box-shadow: 0px 7px 18px -5px #ccc;border-radius: 50%;transition: all .2s ease-in-out;}
+.social_links a img:hover{transition: all .2s ease-in-out;transform: translateY(-10px);box-shadow: 0px 7px 24px -3px #ccc;}
+
+/*Footer Section*/
+.footer-section{}
+.footer-section ul{padding: 1% 0;text-align: center;border-top: 2px solid #ccc;margin: 0;background-color: #333;}
+.footer-section ul li{display: inline-block;width: 9%;}
+.footer-section ul li a{text-decoration: none;color: #fff;font-family: Encode Sans;font-size: 14px;font-weight: 500;}
+.footer-section ul li a:hover{color: #e3e3e3;}
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #F32869 url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 2px;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 60px;
+  }
+}

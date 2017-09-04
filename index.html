@@ -1,9 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>FitPro</title>
+	<meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		
+		<title>FitPro</title>
+
+	<!-- FAVICON -->
+    <link rel="icon" href="" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/response.css">
+		<link rel="stylesheet" href="css/jquery.skidder.css">
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500" rel="stylesheet"> 
 </head>
 <body>
+ 
+	<!-- SERVICES OFFERED MODAL START -->
+	<div class="popup" data-popup="popup-1">
+	    <div class="popup-inner">
+	        <h2>Wow! This is Awesome! (Popup #1)</h2>
+	        <p>Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.</p>
+	        <p><a data-popup-close="popup-1" href="#">Close</a></p>
+	        <a class="popup-close" data-popup-close="popup-1" href="#">&times;</a>
+	    </div>
+	</div>
+
+	<div class="popup" data-popup="popup-2">
+	    <div class="popup-inner">
+	        <h2>Wow! This is Awesome! (Popup #2)</h2>
+	        <p>Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.</p>
+	        <p><a data-popup-close="popup-2" href="#">Close</a></p>
+	        <a class="popup-close" data-popup-close="popup-2" href="#">&times;</a>
+	    </div>
+	</div>
+
+	<div class="popup" data-popup="popup-3">
+	    <div class="popup-inner">
+	        <h2>Wow! This is Awesome! (Popup #3)</h2>
+	        <p>Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.</p>
+	        <p><a data-popup-close="popup-3" href="#">Close</a></p>
+	        <a class="popup-close" data-popup-close="popup-3" href="#">&times;</a>
+	    </div>
+	</div>
+	<!-- SERVICES OFFERED MODAL START END-->
+
+	<div class="nav-bar-section">
+		
+	</div>
+
+	<div class="main-img-section">
+		<img src="images/main-head.jpg">
+		<div class="main-img-text-section">
+			<h1><span>Fit</span>ness<span>Pro</span>fessionals</h1>
+			<p>#stayfit</p>
+			<div class="scroll-down">
+				<a href="#about">&#65086;</a>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="about-section same-width" id="about">
+		<label>ABOUT US</label>
+		<!-- <div class="about-left">
+			<img src="images/placeholder-about.jpg">
+		</div> -->
+		<div class="about-right">
+			<ul>
+				<li><span>WHAT</span>FitPro is a Fitness based startup aimed to make everybody fit irrespective of their gender or age.  </li>
+				<li><span>WHY</span>In today's hectic and fast paced life, it is very difficult to maintain ourself, and that's where FitPro comes into the picture.</li>
+				<li><span>HOW</span>We are at your service whenever you need us. You can <a href="#contact">Contact</a> us and we figure out a schedule for you.</li>
+				<li><span>WHO</span><a href="#trainer">WE</a> are a group of two people who are very fond of Fitness, which spread positivity throughout by spreading the concept of ancient yoga, which is taught to us by our honourable Guru Ji.
+			 	Fitpro promises to all the people to provide a necessary component of life like by providing peace, harmony, happiness and disease free life.
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="service-section same-width" id="service">
+		<label>OUR SERVICES</label>
+		<div class="service-box" id="">
+			<div class="service-box-img">
+				<img src="">
+			</div>
+			<div class="service-box-text">
+				<label>Name</label>
+				<p>Text</p>
+				<a class="btn" data-popup-open="popup-1" href="#">SHOW MORE</a>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-box-img">
+				<img src="">
+			</div>
+			<div class="service-box-text">
+				<label>Name</label>
+				<p>Text</p>
+				<a class="btn" data-popup-open="popup-2" href="#">SHOW MORE</a>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-box-img">
+				<img src="">
+			</div>
+			<div class="service-box-text">
+				<label>Name</label>
+				<p>Text</p>
+				<a class="btn" data-popup-open="popup-3" href="#">SHOW MORE</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="gallery-section same-width" id="gallery">
+		<label>GALLERY</label>
+
+
+		<div class="slideshow" style="height: 0; overflow: hidden">
+      <div class="slide"><img src="images/1-min.jpg"></div>
+      <div class="slide"><img src="images/5-min.jpg"></div>
+      <div class="slide"><img src="images/3-min.jpg"></div>
+      <div class="slide"><img src="images/7-min.jpg"></div>
+      <div class="slide"><img src="images/4-min.jpg"></div>
+      <div class="slide"><img src="images/6-min.jpg"></div>
+      <div class="slide"><img src="images/10-min.jpg"></div>
+    </div>
+
+
+
+		<!-- <div>
+			<div class="img_block img_block_1">
+				<img src="images/5.jpg">	
+			</div>
+			<div class="img_block_1-1">
+				<img src="images/3.jpg">
+			</div>
+		</div>
+		
+		<div class="img_block img_block_2">
+			<div class="img_block_2-1">
+				<img src="images/6-1.jpg">
+			</div>
+			<div class="img_block_2-2">
+				<img src="images/1.jpg">
+			</div>
+			<div class="img_block_2-3">
+				<img src="images/10.jpg">
+			</div>
+		</div>
+
+		<div class="img_block img_block_3">
+			<div>
+				<img src="images/4.jpg">
+			</div>
+			<div>
+				<img src="images/7-1.jpg">
+			</div>
+		</div> -->
+
+		
+	</div>
+
+	<div class="trainer-section same-width" id="trainer">
+		<label>OUR TRAINERS</label>
+		<div class="trainer_block">
+			<div class="trainer_box trainer_left_box">
+				<div class="trainer_img">
+					<img src="images/placeholder-circle.svg">
+				</div>
+				<div class="trainer_text">
+					<div>
+						<label>RAHUL MISHRA</label>
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut
+					</p>
+				</div>
+			</div>
+			<div class="trainer_box trainer_right_box">
+				<div class="trainer_img">
+					<img src="images/placeholder-circle.svg">
+				</div>
+				<div class="trainer_text">
+					<div>
+						<label>PRASHANT SHARMA</label>
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="feedback-section same-width">
+		<label>REVIEWS</label>
+	</div> -->
+
+	<div class="contact-section same-width" id="contact">
+		<label>CONTACT US</label>
+		<div class="contact-box">
+			
+			<div class="contact-wrap-box">
+				<div class="contact-img-box">
+					<img src="images/fp-call.svg">
+				</div>
+				<div class="contact-text-box">
+					<p>+91 9205 6161 26 | +91 9560 8643 04</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="contact-box right-contact-box">
+			<div class="contact-wrap-box">
+				<div class="contact-img-box">
+					<img src="images/fp-mail.svg">
+				</div>
+				<div class="contact-text-box">
+					<p>fitproall@gmail.com</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="social_links">
+			<a href="https://www.facebook.com/fitallpro" target="_blank">
+				<img src="images/fp-social-fb.svg" title="Facebook" alt="FitPro on Facebook">
+			</a>
+			<a href="https://www.instagram.com/fitallpro/" target="_blank">
+				<img src="images/fp-social-insta.svg" title="Instagram" alt="FitPro on Instagram">
+			</a>
+			<a href="https://www.youtube.com/channel/UCuzDRsm7kB2WtkW3DiSCtWg" target="_blank">
+				<img src="images/fp-social-youtube.svg" title="YouTube" alt="FitPro on YouTube">
+			</a>
+			<a href="https://www.urbanclap.com/pro/sumitss92" target="_blank">
+				<img src="images/fp-social-urbanclap.svg" title="UrbanClap" alt="FitPro on UrbanClap">
+			</a>
+		</div>
+		
+	</div>
+
+	<div class="footer-section">
+		<ul>
+			<li>
+				<a href="#about">ABOUT US</a>
+			</li>
+			<li>
+				<a href="#service">SERVICES</a>
+			</li>
+			<li>
+				<a href="#gallery">GALLERY</a>
+			</li>
+			<li>
+				<a href="#trainer">TRAINERS</a>
+			</li>
+		</ul>
+		
+	</div>
+	<a href="#0" class="cd-top">Top</a>
+
+	<script src="js/jquery.js" crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/imagesloaded.js"></script>
+  <script src="js/smartresize.js"></script>
+  <script src="js/jquery.skidder.js"></script>
+  
+  <script>
+    $('.same-width a').smoothScroll();
+    $('.scroll-down a').smoothScroll();
+    $('.footer-section a').smoothScroll();
+	</script>
+  <script>
+    $('.slideshow').each( function() {
+      var $slideshow = $(this);
+      $slideshow.imagesLoaded( function() {
+        $slideshow.skidder({
+          slideClass    : '.slide',
+          animationType : 'css',
+          scaleSlides   : true,
+          maxWidth 			: 1300,
+          maxHeight			: 500,
+          paging        : true,
+          autoPaging    : true,
+          pagingWrapper : ".skidder-pager",
+          pagingElement : ".skidder-pager-dot",
+          swiping       : true,
+          leftaligned   : false,
+          cycle         : true,
+          jumpback      : false,
+          speed         : 400,
+          autoplay      : true,
+          autoplayResume: true,
+          interval      : 2000,
+          transition    : "slide",
+          afterSliding  : function() {},
+          afterInit     : function() {}
+        });
+      });
+    });
+
+    $(window).smartresize(function(){
+      $('.slideshow').skidder('resize');
+    });
+
+  </script>
 
 </body>
 </html>
