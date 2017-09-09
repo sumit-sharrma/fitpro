@@ -101,7 +101,16 @@
 
 @media screen and (max-width: 414px)
 {
-	
+	.main-img-text-section h1 {
+    	display: none;
+	}
+	.main-img-text-section:after{
+		position: absolute;content: 'FitPro';top: 0;display: block;text-align: center;width: 100%;font-size: 3em;color: #F32869;
+	}
+	.main-img-text-section p {
+    	margin-top: 30%;
+    	font-size: 1.5em;
+	}
 }
 
 @media screen and (max-width: 375px)
@@ -109,7 +118,7 @@
 	
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 360px)
 {
 	
 }
