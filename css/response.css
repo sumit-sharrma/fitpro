@@ -105,6 +105,9 @@
     	width: 100%;
     	left: 0;
 	}
+	.popup-inner{
+		padding: 2%;
+	}
 	.scroll-down{
 		display: none;
 	}
@@ -142,6 +145,9 @@
 	.main-img-text-section h1 {
     	font-size: 3em;
 	}
+	.popup-inner{
+		padding: 2% 3%;
+	}
 	.trainer_box {
        	width: 100% !important; 
        	margin-bottom: 8%;
@@ -178,6 +184,9 @@
     .footer-section ul li {
     	width: 19%;
 	}
+	.cd-top{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 414px)
@@ -188,23 +197,41 @@
 	.main-img-text-section:after{
 		position: absolute;content: 'FitPro';top: 0;display: block;text-align: center;width: 100%;font-size: 3em;color: #F32869;
 	}
+	.about-right ul li {
+		text-align: left;
+	}
 	.main-img-text-section p {
     	margin-top: 30%;
     	font-size: 1.5em;
 	}
+	.footer-section ul li a {
+    	font-size: 14px;
+	}
+	.skidder-viewport .skidder-clickwrapper .skidder-next,.skidder-viewport .skidder-clickwrapper .skidder-prev{margin: 0 !important;}
+	.skidder-viewport .skidder-clickwrapper{width: 14% !important;}
 }
 
 @media screen and (max-width: 375px)
 {
-	
+	.footer-section ul li a {
+    	font-size: 13px;
+	}
+	.skidder-viewport .skidder-clickwrapper .skidder-clickelement{width: 40px !important;}
 }
 
 @media screen and (max-width: 360px)
 {
-	
+	.service-box-img img {
+    	width: 26%;
+	}
+	.contact-text-box p {
+    	font-size: 17px;
+	}
 }
 
 @media screen and (max-width: 320px)
 {
-	
+	.footer-section ul li {
+    	width: 22%;
+	}
 }
