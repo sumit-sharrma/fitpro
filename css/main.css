@@ -71,7 +71,7 @@ img{width: 100%;}
 /*trainer-section*/
 .trainer_block .trainer_box{display: inline-block;width: 49.8%;text-align: center;}
 .trainer_left_box{background-color: #f4f4f4;}
-.trainer_right_box{background-color: #fdfdfd;}
+.trainer_right_box{background-color: #f4f4f4;}
 .trainer_img{padding: 6% 0;}
 .trainer_text{padding: 0 5%;padding-bottom: 5%;}
 .trainer_text p{font-family: PT Sans;}

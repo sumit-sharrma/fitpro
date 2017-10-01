@@ -216,6 +216,7 @@
 		border-top: none;
 		padding-top: 5%;
 		margin-top: 38%;
+		overflow: unset;
 	}
 	.social_links a img {
     	width: 15%;
