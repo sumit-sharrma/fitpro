@@ -32,7 +32,7 @@ img{width: 100%;}
 }
 
 /*about-section*/
-.about-right ul{padding-left: 0;}
+.about-right ul{padding-left: 0;margin-top: 0;}
 .about-right ul li{font-family: PT Sans;margin-bottom: 2%;list-style-type: none;text-align: center;line-height: 28px;font-size: 14px;}
 .about-right ul li span{font-family: Oswald;font-weight: 500;font-size: 24px;color: #444;border-bottom: 2px solid #ccc;margin-right: 1%;}
 .about-right ul li a{color: #f32869;text-decoration: none;font-weight: 500;}

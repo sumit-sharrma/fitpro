@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px)
+@media (min-width: 1400px) and (max-width: 1920px)
 {
 	.main-img-text-section h1 {
     	font-size: 7em;
@@ -127,10 +127,16 @@
 	.contact-text-box p {
     	font-size: 16px;
 	}
+	.trainer_block {
+    	padding: 0%;
+	}
 }
 
 @media screen and (max-width: 640px)
 {
+	.same-width{
+		margin: 6% auto;
+	}
 	.contact-text-box p {
     	font-size: 15px;
     	padding: 0 3%;
@@ -142,6 +148,9 @@
 
 @media screen and (max-width: 568px)
 {
+	.same-width{
+		margin: 7% auto;
+	}
 	.main-img-text-section h1 {
     	font-size: 3em;
 	}

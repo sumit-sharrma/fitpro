@@ -21,13 +21,13 @@
 	        <h2>YOGA</h2>
 	        <p>Yoga in its full form combines physical postures, breathing exercises, meditation, and a distinct philosophy. Yoga is a mind and body practice with historical origins in ancient Indian philosophy. Like other meditative movement practices used for health purposes, various styles of yoga typically combine physical postures, breathing techniques, and meditation or relaxation. </p>
 	        <p>Current research suggests that a carefully adapted set of yoga poses may reduce low-back pain and improve function. Other studies also suggest that practicing yoga (as well as other forms of regular exercise) might <b>improve quality of life; reduce stress; lower heart rate and blood pressure; help relieve anxiety, depression, and insomnia; and improve overall physical fitness, strength, and flexibility.</b></p>
-	        <p>There are numerous styles of yoga.</p>
+	        <p>There are numerous asanas in yoga.</p>
 		        <ul>
 		        	<li>PADMASANA</li>
 		        	<li>VAJRASANA</li>
 		        	<li>BADDHAPADMASANA</li>
 		        	<li>DHANURASANA</li>
-		        	<li>SURYA NAMASKAR</li>
+		        	<li>SUKHASANA</li>
 		        </ul>
 	        
 	        <p class="close_btn"><a data-popup-close="popup-1" href="#">Close</a></p>
@@ -266,40 +266,40 @@
 	    $('.scroll-down a').smoothScroll();
 	    $('.footer-section a').smoothScroll();
 	</script>
-  <script>
-    $('.slideshow').each( function() {
-		var $slideshow = $(this);
-		$slideshow.imagesLoaded( function() {
-        $slideshow.skidder({
-			slideClass    : '.slide',
-			animationType : 'css',
-			scaleSlides   : true,
-			maxWidth 			: 1300,
-			maxHeight			: 500,
-			paging        : true,
-			autoPaging    : true,
-			pagingWrapper : ".skidder-pager",
-			pagingElement : ".skidder-pager-dot",
-			swiping       : true,
-			leftaligned   : false,
-			cycle         : true,
-			jumpback      : false,
-			speed         : 400,
-			autoplay      : true,
-			autoplayResume: true,
-			interval      : 2000,
-			transition    : "slide",
-			afterSliding  : function() {},
-			afterInit     : function() {}
-			});
-      	});
-    });
+  	<script>
+	    $('.slideshow').each( function() {
+			var $slideshow = $(this);
+			$slideshow.imagesLoaded( function() {
+	        $slideshow.skidder({
+				slideClass    : '.slide',
+				animationType : 'css',
+				scaleSlides   : true,
+				maxWidth 	  : 1300,
+				maxHeight	  : 500,
+				paging        : true,
+				autoPaging    : true,
+				pagingWrapper : ".skidder-pager",
+				pagingElement : ".skidder-pager-dot",
+				swiping       : true,
+				leftaligned   : false,
+				cycle         : true,
+				jumpback      : false,
+				speed         : 400,
+				autoplay      : true,
+				autoplayResume: true,
+				interval      : 2000,
+				transition    : "slide",
+				afterSliding  : function() {},
+				afterInit     : function() {}
+				});
+	      	});
+	    });
 
-    $(window).smartresize(function(){
-      $('.slideshow').skidder('resize');
-    });
+	    $(window).smartresize(function(){
+	      $('.slideshow').skidder('resize');
+	    });
 
-  </script>
+  	</script>
 
 </body>
 </html>
