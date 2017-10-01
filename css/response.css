@@ -113,6 +113,13 @@
 	}
 }
 
+@media screen and (max-width: 736px)
+{
+	.about-right ul li, .service-box-text p {
+    	font-size: 15px;
+	}
+}
+
 @media screen and (max-width: 667px)
 {
 	.main-img-text-section h1 {
@@ -130,6 +137,9 @@
 	.trainer_block {
     	padding: 0%;
 	}
+	.contact-text-box p{
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 640px)
@@ -143,6 +153,26 @@
 	}
 	.footer-section ul li a {
     	font-size: 15px;
+	}
+	.contact-box{
+		width: 100%;
+	}
+	.contact-wrap-box{
+		padding: 2% 0;
+	}
+	.contact-img-box img {
+    	width: 16%;
+	}
+	.social_links{
+		padding-bottom: 4%;
+		margin-top: 36%;
+		overflow: auto;
+	}
+	.social_links a{
+		margin-right: 10%;
+	}
+	.social_links a img {
+    	width: 15%;
 	}
 }
 
@@ -184,11 +214,11 @@
 	}
 	.social_links{
 		border-top: none;
-		padding-top: 0;
-		margin-top: 0;
+		padding-top: 5%;
+		margin-top: 38%;
 	}
 	.social_links a img {
-    	width: 18%;
+    	width: 15%;
     }
     .footer-section ul li {
     	width: 19%;
@@ -208,6 +238,7 @@
 	}
 	.about-right ul li {
 		text-align: left;
+		margin-bottom: 4%;
 	}
 	.main-img-text-section p {
     	margin-top: 30%;
@@ -218,6 +249,14 @@
 	}
 	.skidder-viewport .skidder-clickwrapper .skidder-next,.skidder-viewport .skidder-clickwrapper .skidder-prev{margin: 0 !important;}
 	.skidder-viewport .skidder-clickwrapper{width: 14% !important;}
+	.contact-text-box p {
+    	font-size: 16px;
+	}
+	.social_links {
+    	border-top: none;
+    	padding-top: 6%;
+    	margin-top: 40%;
+	}
 }
 
 @media screen and (max-width: 375px)
@@ -234,7 +273,18 @@
     	width: 26%;
 	}
 	.contact-text-box p {
-    	font-size: 17px;
+    	font-size: 15px;
+	}
+	.social_links {
+    	border-top: none;
+	    padding-top: 6%;
+		margin-top: 43%;
+	}
+	.social_links a {
+    	margin-right: 5%;
+	}
+	.social_links a img {
+    	width: 19%;
 	}
 }
 

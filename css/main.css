@@ -39,7 +39,7 @@ img{width: 100%;}
 
 /*service-section*/
 .service-section{}
-.service-section .service-box{display: inline-block;width: 33%;transition: all .3s ease-in-out;background-color: #fdfdfd;}
+.service-section .service-box{display: inline-block;width: 33%;transition: all .3s ease-in-out;background-color: #f4f4f4;}
 .service-box{padding: 2% 0;}
 .service-box:hover{box-shadow: 0 5px 12px -7px #777;-webkit-box-shadow:0 6px 19px -6px #777;transition: all .3s ease-in-out;}
 .service-box-img{text-align: center;}
