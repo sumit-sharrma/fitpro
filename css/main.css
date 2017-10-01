@@ -70,7 +70,7 @@ img{width: 100%;}
 
 /*trainer-section*/
 .trainer_block .trainer_box{display: inline-block;width: 49.8%;text-align: center;}
-.trainer_left_box{background-color: #fdfdfd;}
+.trainer_left_box{background-color: #f4f4f4;}
 .trainer_right_box{background-color: #fdfdfd;}
 .trainer_img{padding: 6% 0;}
 .trainer_text{padding: 0 5%;padding-bottom: 5%;}
@@ -87,7 +87,7 @@ img{width: 100%;}
 .contact-img-box{display: block;padding: 0;}
 .contact-img-box img{width: 22%;}
 .contact-text-box{}
-.contact-wrap-box{overflow: auto;text-align: center;background-color: #fdfdfd;padding: 6% 0;}
+.contact-wrap-box{overflow: auto;text-align: center;background-color: #f4f4f4;padding: 6% 0;}
 .contact-text-box p{margin-top: 2%;font-family: PT Sans;padding-left: 0;}
 .right-contact-box{float: right;margin-top: 0;}
 .social_links{text-align: center;border-top: 2px dashed #ccc;padding-top: 4%;padding-bottom: 1%;margin-top: 2%;}
