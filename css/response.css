@@ -1,33 +1,101 @@
+@media (min-width: 1400px) and (max-width: 1920px)
+{
+	.main-img-text-section h1 {
+    	font-size: 7em;
+	}
+	.about-right ul li,.service-box-text p{
+		font-size: 20px;
+	}
+	.trainer_text p{
+		font-size: 18px;
+	}
+	.contact-text-box p{
+		font-size: 24px;
+	}
+	.footer-section ul li{
+		width: 12%;
+	}
+	.footer-section ul li a{
+		font-size: 22px;
+	}
+	.service-box-text a{
+		padding: 2% 10%;
+    	font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1280px)
+{
+	.main-img-text-section h1 {
+    	font-size: 5em;
+	}
+	.contact-text-box p {
+    	font-size: 22px;
+	}
+	.footer-section ul li a {
+    	font-size: 18px;
+	}
+}
+
 @media screen and (max-width: 1024px)
 {
 	.main-img-text-section {
     	top: 6%;
-    	left: 9%;
+    	left: 0;
     }
     .main-img-text-section p {
-    	margin-top: 16%;
+    	margin-top: 12%;
 	}
 	.scroll-down {
-    	margin-top: 8%;
+    	margin-top: 6%;
     }
+    .about-right ul li, .service-box-text p {
+    	font-size: 19px;
+	}
+	.trainer_block .trainer_box {
+    	width: 49.7%;
+    }
+    .contact-text-box p {
+    	font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 800px)
 {
-	.main-img-text-section {
-    	left: 8%;
-    }
+	.service-box{
+		width: 100% !important;
+		margin-bottom: 2%;
+	}
+	.service-box-img img {
+    	width: 15%;
+	}
     .main-img-text-section h1 {
     	font-size: 4em;
 	}
-	.footer-section ul li {
-      	width: 12%;
+	.trainer_block .trainer_box {
+    	width: 100%;
+	}
+	.trainer_box{
+		margin-bottom: 2%;
+	}
+	.trainer_img{
+		padding: 4% 0;
+		padding-bottom: 0;
+	}
+	.trainer_img img {
+    	width: 20%;
 	}
 	.trainer_block {
     	padding: 2% 0%;
 	}
-	.contact-box{
-		padding: 3% 0;
+	.contact-text-box p {
+    	font-size: 18px;
+	}
+	.footer-section ul li {
+    	width: 18%;
+	}
+	.footer-section ul li a {
+    	font-size: 16px;
 	}
 }
 
@@ -37,8 +105,18 @@
     	width: 100%;
     	left: 0;
 	}
+	.popup-inner{
+		padding: 2%;
+	}
 	.scroll-down{
 		display: none;
+	}
+}
+
+@media screen and (max-width: 736px)
+{
+	.about-right ul li, .service-box-text p {
+    	font-size: 15px;
 	}
 }
 
@@ -53,17 +131,61 @@
 	.trainer_text p{
 		padding: 0 2%;
 	}
+	.contact-text-box p {
+    	font-size: 16px;
+	}
+	.trainer_block {
+    	padding: 0%;
+	}
+	.contact-text-box p{
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 640px)
 {
-
+	.same-width{
+		margin: 6% auto;
+	}
+	.contact-text-box p {
+    	font-size: 15px;
+    	padding: 0 3%;
+	}
+	.footer-section ul li a {
+    	font-size: 15px;
+	}
+	.contact-box{
+		width: 100%;
+	}
+	.contact-wrap-box{
+		padding: 2% 0;
+	}
+	.contact-img-box img {
+    	width: 16%;
+	}
+	.social_links{
+		padding-bottom: 4%;
+		margin-top: 36%;
+		overflow: auto;
+	}
+	.social_links a{
+		margin-right: 10%;
+	}
+	.social_links a img {
+    	width: 15%;
+	}
 }
 
 @media screen and (max-width: 568px)
 {
+	.same-width{
+		margin: 7% auto;
+	}
 	.main-img-text-section h1 {
     	font-size: 3em;
+	}
+	.popup-inner{
+		padding: 2% 3%;
 	}
 	.trainer_box {
        	width: 100% !important; 
@@ -86,16 +208,24 @@
 	.right-contact-box {
     	margin-bottom: 5%;
 	}
+	.contact-text-box p {
+    	font-size: 18px;
+    	padding: 0 3%;
+	}
 	.social_links{
 		border-top: none;
-		padding-top: 0;
-		margin-top: 0;
+		padding-top: 5%;
+		margin-top: 38%;
+		overflow: unset;
 	}
 	.social_links a img {
-    	width: 18%;
+    	width: 15%;
     }
     .footer-section ul li {
     	width: 19%;
+	}
+	.cd-top{
+		display: none;
 	}
 }
 
@@ -107,23 +237,61 @@
 	.main-img-text-section:after{
 		position: absolute;content: 'FitPro';top: 0;display: block;text-align: center;width: 100%;font-size: 3em;color: #F32869;
 	}
+	.about-right ul li {
+		text-align: left;
+		margin-bottom: 4%;
+	}
 	.main-img-text-section p {
     	margin-top: 30%;
     	font-size: 1.5em;
+	}
+	.footer-section ul li a {
+    	font-size: 14px;
+	}
+	.skidder-viewport .skidder-clickwrapper .skidder-next,.skidder-viewport .skidder-clickwrapper .skidder-prev{margin: 0 !important;}
+	.skidder-viewport .skidder-clickwrapper{width: 14% !important;}
+	.contact-text-box p {
+    	font-size: 16px;
+	}
+	.social_links {
+    	border-top: none;
+    	padding-top: 6%;
+    	margin-top: 40%;
 	}
 }
 
 @media screen and (max-width: 375px)
 {
-	
+	.footer-section ul li a {
+    	font-size: 13px;
+	}
+	.skidder-viewport .skidder-clickwrapper .skidder-clickelement{width: 40px !important;}
 }
 
 @media screen and (max-width: 360px)
 {
-	
+	.service-box-img img {
+    	width: 26%;
+	}
+	.contact-text-box p {
+    	font-size: 15px;
+	}
+	.social_links {
+    	border-top: none;
+	    padding-top: 6%;
+		margin-top: 43%;
+	}
+	.social_links a {
+    	margin-right: 5%;
+	}
+	.social_links a img {
+    	width: 19%;
+	}
 }
 
 @media screen and (max-width: 320px)
 {
-	
+	.footer-section ul li {
+    	width: 22%;
+	}
 }

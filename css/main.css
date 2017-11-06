@@ -32,14 +32,14 @@ img{width: 100%;}
 }
 
 /*about-section*/
-.about-right ul{padding-left: 0;}
+.about-right ul{padding-left: 0;margin-top: 0;}
 .about-right ul li{font-family: PT Sans;margin-bottom: 2%;list-style-type: none;text-align: center;line-height: 28px;font-size: 14px;}
 .about-right ul li span{font-family: Oswald;font-weight: 500;font-size: 24px;color: #444;border-bottom: 2px solid #ccc;margin-right: 1%;}
 .about-right ul li a{color: #f32869;text-decoration: none;font-weight: 500;}
 
 /*service-section*/
 .service-section{}
-.service-section .service-box{display: inline-block;width: 33%;transition: all .3s ease-in-out;background-color: #fdfdfd;}
+.service-section .service-box{display: inline-block;width: 33%;transition: all .3s ease-in-out;background-color: #f4f4f4;}
 .service-box{padding: 2% 0;}
 .service-box:hover{box-shadow: 0 5px 12px -7px #777;-webkit-box-shadow:0 6px 19px -6px #777;transition: all .3s ease-in-out;}
 .service-box-img{text-align: center;}
@@ -86,7 +86,6 @@ img{width: 100%;}
 .contact-box:hover{box-shadow: 0 5px 12px -7px #777;-webkit-box-shadow:0 6px 19px -6px #777;transition: all .3s ease-in-out;}
 .contact-img-box{display: block;padding: 0;}
 .contact-img-box img{width: 22%;}
-.contact-text-box{}
 .contact-wrap-box{overflow: auto;text-align: center;background-color: #fdfdfd;padding: 6% 0;}
 .contact-text-box p{margin-top: 2%;font-family: PT Sans;padding-left: 0;}
 .right-contact-box{float: right;margin-top: 0;}
